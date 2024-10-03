@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #252525;
+}
+
+.container p {
+  margin: 15px 0px;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 10px;
+}
+
+@media (max-width: 400px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+}
+
+.navigation a {
+  color: #ffffff;
+  background-color: #5d8bee;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+  width: 6rem;
+}
+
+.navigation a:hover {
+  background-color: #3f6ac5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  padding: 12px;
+  text-align: left;
+}
+
+tr:nth-child(odd),
+th {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

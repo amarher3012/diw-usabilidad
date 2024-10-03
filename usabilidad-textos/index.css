@@ -1,0 +1,41 @@
+/* Importamos una fuente mas legible */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  background-color: #f0f0f0;
+  color: #252525;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+p {
+  margin-bottom: 10px;
+  text-wrap: pretty;
+}
+.content-box {
+  background-color: #acbaca;
+  color: #252525;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 6px;
+}
+a {
+  color: #0000ff;
+}
